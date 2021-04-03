@@ -12,7 +12,7 @@ Decision Trees
 
 ### HW2
 Linear Regression and Neural Networks
-- Train a neural network and a linear regressor and optimize to learn the correlation between the provided input output sets. Implemented a general purpose neural network framework under **backend**, however, this implementation is not completely accurate. I wouldn't recommend anyone to clone this repo and use that backend. The future work consists of debugging.
+- Trained a neural network and a linear regressor and optimize to learn the correlation between the provided input output sets. Implemented a general purpose neural network framework under **backend**, however, this implementation is not completely accurate. I wouldn't recommend anyone to clone this repo and use that backend. The future work consists of debugging.
 - Backend is implemented in Python, and the experiments are done in Python using Jupiter Notebooks
 
 ### HW3
@@ -25,6 +25,6 @@ Clustering
 Image Domain Adaptation using Cyclic Generative Adversarial Networks 
 - Used Cycle GANs to transform the images from the photograph to cartoon domain. 
 - Experimented on Vanilla GAN, LSGAN and Wasserstein GAN architectures. 
-- Used [the repo](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) to train the networks. 
+- Used [this repo](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) to train the networks. 
 - Frechet Inception Distance (FID) implemented to measure performance. 
 
