@@ -24,6 +24,7 @@ Clustering
 ###  Project:
 Image Domain Adaptation using Cyclic Generative Adversarial Networks 
 - Used Cycle GANs to transform the images from the photograph to cartoon domain. 
+- Custom framed and cropped face cartoon dataset is used. 
 - Experimented on Vanilla GAN, LSGAN and Wasserstein GAN architectures. 
 - Used [this repo](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) to train the networks. 
 - Frechet Inception Distance (FID) implemented to measure performance. 
