@@ -1,0 +1,13 @@
+Used Scripts 
+
+nohup python train.py --dataroot dataset --name cart_cyclegan_wgan --model cycle_gan --max_dataset_size 1000 --gan_mode wgangp --gpu_ids 0 --batch_size 1 > wgan.out
+
+nohup python train.py --dataroot dataset --name cart_cyclegan_vanilla --model cycle_gan --max_dataset_size 1000 --gan_mode vanilla --gpu_ids 1 --batch_size 2 > vanilla.out
+
+nohup python train.py --dataroot dataset --name cart_cyclegan_ls --model cycle_gan --max_dataset_size 1000 --gan_mode lsgan --gpu_ids 0 --batch_size 2 > lsgan.out
+
+python test.py --dataroot dataset --name cart_cyclegan_ls --model cycle_gan 
+
+python test.py --dataroot dataset --name cart_cyclegan_wgan --model cycle_gan 
+
+python test.py --dataroot dataset --name cart_cyclegan_vanilla --model cycle_gan 
